@@ -1,4 +1,3 @@
-const ctx = document.getElementById("DoughnutChart");
 let map = L.map('mapid');
 map.setView(new L.LatLng(23.974115497410764, 120.97994624910778), 7);
 let osmUrl='https://wmts.nlsc.gov.tw/wmts/EMAP/default/GoogleMapsCompatible/{z}/{y}/{x}';
